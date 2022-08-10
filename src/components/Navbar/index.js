@@ -12,7 +12,7 @@ const Navbar = () => {
           src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png"
           className="navbar-img"
         />
-        <div>{favoritePokemons.length}</div>
+        <div>{favoritePokemons.length}❤️</div>
       </nav>
     </S.Container>
   );
