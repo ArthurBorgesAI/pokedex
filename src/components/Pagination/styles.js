@@ -1,12 +1,20 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+`;
 
-    div{
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-`
+export const Button = styled.button`
+  background-color: #363636;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  margin: 0px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+`;

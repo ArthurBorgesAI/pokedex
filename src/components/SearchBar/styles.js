@@ -1,29 +1,37 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
-    display: flex;
-    margin: 0px auto;
-    padding: 0 20px;
-    align-itens: center;
-`
+  display: flex;
+  margin: 0px 10px;
+  padding: 0;
+  align-items: center;
+  flex: 1;
+  align-items: stretch;
+  margin-top: 100px;
+`;
 
 export const SearchBar = styled.div`
-    background: white;
-    margin-right: 20px;
+  background: white;
+  padding-right: 20px;
+  flex: 1;
 
-    input{
-        padding: 10px;
-        box-shadow: 0px 2px 2px (0,0,0,0.25);
-        border-radius: 3px;
-        border: none;
-    }
+  input {
+    width: 600px;
+    margin-right: 10px;
+    padding: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    border: none;
+    width: 100%;
+  }
+`;
 
-    button{
-        background: #0e6f9f;
-        border: none;
-        border-radius: 10px;
-        geight: 44px;
-        color: white;
-        padding: 10px 12px;
-    }
-`
+export const Button = styled.button`
+  background-color: #363636;
+  border: none;
+  border-radius: 10px;
+  height: 100%;
+  color: white;
+  padding: 10px 12px;
+  margin-left: 20px;
+`;
